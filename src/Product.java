@@ -1,5 +1,10 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+public class Product {
+    private String name;
+    private String description;
+    private BigDecimal price;
+    private LocalDateTime createdAt;
+
 }
